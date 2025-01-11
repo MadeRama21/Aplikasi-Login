@@ -4,9 +4,21 @@
  * Gunakan fungsi goToLogin() untuk menampilkan halaman login
  * Gunakan fungsi showPopUp() untuk menampilkan pop up error
  */
-
+// @module Login-Script
+/**
+*membuat variable loginFormElement untuk tampilan form.
+*@constant {HTMLElement}
+*/
 const loginFormElement = document.querySelector('#loginForm');
+/**
+*membuat variable inputEmailElement untuk tampilan input.
+*@constant {HTMLElement}
+*/
 const inputEmailElement = document.querySelector('#inputEmail');
+/**
+*membuat variable loginFormElement untuk tampilan form.
+*@constant {HTMLElement}
+*/
 const inputPasswordElement = document.querySelector('#inputPassword');
 
 const expectedEmail = 'admin@dicoding.com';
